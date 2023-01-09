@@ -15,7 +15,7 @@ class CycleError extends Error {
 }
 
 // A graph data structure with depth-first search and topological sort.
-function Graph(serialized?: Serialized) {
+export function Graph(serialized?: Serialized) {
     // Returned graph instance
     const graph = {
         addNode,
@@ -433,4 +433,3 @@ function Graph(serialized?: Serialized) {
     // The returned graph instance.
     return graph;
 }
-export = Graph;

@@ -4,7 +4,7 @@ var assert = require("assert");
 
 // If using from the NPM package, this line would be
 // var Graph = require("graph-data-structure");
-var Graph = require("./index.js");
+var Graph = require("./index.js").Graph;
 
 var outputGraph = require("graph-diagrams")({
 
